@@ -1,9 +1,18 @@
 ﻿import pandas as pd
 import matplotlib.pyplot as plt
+import os  # 增加這個模組，處理作業系統路徑
 
-# 1. 讀取數據 (A級底座能力：資料處理)
-df = pd.read_csv('shuttlecock_data.csv')
+# 1. 自動獲取「這支程式碼檔案」所在的資料夾路徑
+# __file__ 代表這支檔案自己，abspath 取絕對路徑，dirname 取資料夾名
+current_dir = os.path.dirname(os.path.abspath(__file__))
 
+# 2. 合併路徑，確保無論在哪啟動，都能正確指到同資料夾下的 CSV
+csv_path = os.path.join(current_dir, 'shuttlecock_data.csv')
+
+# 3. 讀取數據 (現在無論在哪按按鈕都行了！)
+df = pd.read_csv(csv_path)
+
+# ...後面的繪圖邏輯不變...
 # 2. 自動清理：填補 Usage_Count 的缺失值為 0
 df['Usage_Count'] = df['Usage_Count'].fillna(0)
 
