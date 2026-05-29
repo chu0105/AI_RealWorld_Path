@@ -1,20 +1,14 @@
-# AI RealWorld Path
+﻿# AI RealWorld Path
 
-這個 repository 用來整理兩個方向的內容：
+這個 repository 目前整理 AI 星際搜打撤文明遊戲企劃。
 
-- [學習](學習/)：實體專案、AI 實作學習、羽球/影像辨識相關練習與週記。
-- [遊戲企劃](遊戲企劃/)：AI 星際搜打撤文明遊戲的世界觀、系統與玩法設計。
+自主學習、實體專案與影像辨識練習已移到：
 
-## 目前結構
+- https://github.com/chu0105/Self_Learning
 
-```text
-學習/
-  notes/
-  projects/
-  weekly_review/
+## 遊戲企劃文件
 
-遊戲企劃/
-  README.md
-  docs/
-```
-
+- [遊戲企劃總覽](GAME_DESIGN.md)
+- [遊戲設計草案](docs/game-design.md)
+- [系統與玩法清單](docs/systems.md)
+- [未來待補想法](docs/backlog.md)
