@@ -2,9 +2,7 @@
 
 這個 repository 目前整理「我想要發展出來的遊戲」企劃：一款 AI 星際搜打撤文明遊戲。
 
-自主學習、實體專案與影像辨識練習已移到：
 
-- https://github.com/chu0105/Self_Learning
 
 ## 遊戲企劃文件
 
