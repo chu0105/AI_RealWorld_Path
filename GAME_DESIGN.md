@@ -1,4 +1,4 @@
-# AI Star Frontier: Game Design Notes
+﻿# 我想要發展出來的遊戲
 
 這是一款以未來科技、AI、星際探索、文明成長與「搜、打、撤」為核心的開放式遊戲概念。
 
@@ -23,3 +23,4 @@
 - [遊戲設計草案](docs/game-design.md)
 - [系統與玩法清單](docs/systems.md)
 - [未來待補想法](docs/backlog.md)
+
